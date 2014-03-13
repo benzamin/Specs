@@ -23,8 +23,9 @@ Pod::Spec.new do |s|
   s.public_header_files = 'WSLibrary.framework/Versions/A/Headers/WSAdSpace.h', 'SpeechKit.framework/Versions/A/Headers/*.h'
   s.vendored_frameworks = 'WSLibrary.framework', 'SpeechKit.framework'
 
-  s.frameworks   = 'AssetsLibrary','AdSupport', 'AudioToolbox', 'CFNetwork', 'Security', 'CoreMedia', 'SystemConfiguration', 'CoreTelephony', 'EventKitUI', 'EventKit', 'QuartzCore', 'AVFoundation', 'CoreLocation','CoreGraphics'
-  s.weak_framework =  'AdSupport'
+  s.frameworks   = 'AssetsLibrary', 'AudioToolbox', 'CFNetwork', 'Security', 'CoreMedia', 'SystemConfiguration', 'CoreTelephony', 'EventKitUI', 'EventKit', 'QuartzCore', 'AVFoundation', 'CoreLocation','CoreGraphics'
+
+  s.weak_frameworks =  'AdSupport'
 
   s.requires_arc = false
 end
