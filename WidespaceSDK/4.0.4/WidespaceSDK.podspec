@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :http => 'https://www.dropbox.com/s/749faj483gdekur/widespace-sdk-ios-develop.zip' }
 
-  s.platform     = :ios, '7.0'
-  s.ios.deployment_target = '5.0'
+  s.platform     = :ios, "7.0"
+  s.ios.deployment_target = "5.0"
 
 
   s.preserve_paths = 'WSLibrary.framework', 'SpeechKit.framework' 
